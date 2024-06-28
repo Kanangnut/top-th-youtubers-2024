@@ -1,6 +1,5 @@
 title: Kanangnut
 logo: assets/images/profile.JPG
 show_downloads: True
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme:
 plugins:
-- jekyll-remote-theme
