@@ -1,4 +1,4 @@
-# Data Portfolio: Top TH YouTubers 2024
+# Data Portfolio: Top TH YouTubers 2024<br>
 ## Excel to Power BI and Tubleau 📊💭
 
 ![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/assets/130201193/21e819d6-409f-4371-9174-ec09cca11a40)
@@ -9,11 +9,11 @@
 
 
 ## Objective
-
-• Key Pain Point:
+<br>
+• Key Pain Point:<br>
 The Head of Marketing needs to find the most important TH YouTubers in 2024 to plan and run marketing campaigns for the rest of the year. Without this information, the company might choose less effective influencers. This could make the campaigns less successful and waste marketing resources.
 
-• Ideal Solution:
+• Ideal Solution:<br>
 Create a simple dashboard that shows the top UK YouTubers of 2024. The dashboard should include:
 
 - Subscriber count: To see how popular the YouTuber is.
