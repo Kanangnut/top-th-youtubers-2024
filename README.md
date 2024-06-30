@@ -5,6 +5,7 @@ Excel to Power BI and Tubleau 📊💭
 
 # Table of Contents
 - [Objective](#objective)
+- [Data Source](#data-source)
 -
 
 
@@ -31,7 +32,9 @@ Create a simple dashboard that shows the top UK YouTubers of 2024. The dashboard
 • Track how well the partnerships are doing.<br>
 • Find new trends in the TH YouTube scene to stay ahead of competitors.<br><br>
 
-With this dashboard, the marketing team can improve their influencer marketing strategy. This will lead to better brand awareness, more engagement, and better results from marketing campaigns.
+With this dashboard, the marketing team can improve their influencer marketing strategy. This will lead to better brand awareness, more engagement, and better results for marketing campaigns.
+
+## Data Source
 
 
 
