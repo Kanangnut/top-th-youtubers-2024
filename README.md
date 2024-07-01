@@ -68,7 +68,8 @@ What data is needed to achieve our objective?
 'Top 100 Social Media Influencers 2024 Countrywise'<br>
 Where is the data coming from? The data is sourced from Kaggle (an Excel extract), [here is the resource](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
 
-And we need data on the top TH YouTubers in 2024 that includes,
+And we need data on the top TH YouTubers in 2024 that includes:
+
 - channel names
 - total subscribers
 - total views
@@ -90,6 +91,7 @@ So we write the python script to get the data from our data source.
 # Design
 
 ## Dashboard Components Required
+
 - What should the dashboard design based on the requirements?
 
 To determine the components that should be included in the dashboard, we need to identify the key questions that the dashboard must answer:
@@ -102,6 +104,22 @@ To determine the components that should be included in the dashboard, we need to
   6. Which 3rd channels have the highest subscriber engagement rate per video uploaded?
 
 These questions will guide the initial design of the dashboard. As our analysis progresses, additional questions and components may be identified and included.
+
+## Dashboard mockup
+
+Some of the data visuals that may be appropriate in answering our questions include:
+
+  1. Table
+  2. Scorecards
+  3. Treemap
+  4. Horizontal bar chart
+
+These charts will help us show:
+
+- Who the top UK YouTubers are.
+- How many subscribers they have.
+- How many views they get.
+- How many videos they make.
 
 
 
