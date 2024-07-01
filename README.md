@@ -426,7 +426,7 @@ RETURN viewsPerSubscriber
 
 For this analysis, we will focus on the questions below to gather information for our marketing client:
 
-  1. Who are the top 10 YouTubers with the most subscribers?
+ ###  1. Who are the top 10 YouTubers with the most subscribers?
 
 | Channel Name | Total Subscriber (M) |
 | ------------- | ------------- |
@@ -441,7 +441,7 @@ For this analysis, we will focus on the questions below to gather information fo
 | Genierock | 16.0 |
 | GMM25Thailand | 15.3 |
 
-  2. Which 3rd channels have uploaded the most videos?
+###   2. Which 3rd channels have uploaded the most videos?
 
 | Channel Name | Total Videos Uploaded |
 | ------------- | ------------- |
@@ -449,7 +449,7 @@ For this analysis, we will focus on the questions below to gather information fo
 | ช่อง one31 | 145,747 |
 | เรื่องเล่าเช้านี้ | 131,490 |
 
-  3. Which 3rd channels have the most views?
+###  3. Which 3rd channels have the most views?
 
 | Channel Name | Total Views (B) |
 | ------------- | ------------- |
@@ -457,7 +457,7 @@ For this analysis, we will focus on the questions below to gather information fo
 | ช่อง one31 | 28.5 |
 | Ch3Thailand | 27.2 |
 
-  4. Which 3rd channels have the highest average views per video?
+###   4. Which 3rd channels have the highest average views per video?
 
 | Channel Name | Averge Views per Video (M) |
 | ------------- | ------------- |
@@ -465,7 +465,7 @@ For this analysis, we will focus on the questions below to gather information fo
 | Illslick thelegandary | 40.0 |
 | YOUNGOHM | 27.0 |
 
-  5. Which 3rd channels have the highest views per subscriber ratio?
+###   5. Which 3rd channels have the highest views per subscriber ratio?
 
 | Channel Name | Views per Subscriber |
 | ------------- | ------------- |
@@ -473,7 +473,7 @@ For this analysis, we will focus on the questions below to gather information fo
 | VOICE TV | 1202.0 |
 | YimYam TV | 1167.0 |
 
-  6. Which 3rd channels have the highest subscriber engagement rate per video uploaded?
+###   6. Which 3rd channels have the highest subscriber engagement rate per video uploaded?
 
 | Channel Name | Subscriber Engagement Rate (M) |
 | ------------- | ------------- |
@@ -481,12 +481,119 @@ For this analysis, we will focus on the questions below to gather information fo
 | Wannabe Mee | 0.07 |
 | Illslick thelegandary | 0.06 |
 
+### Notes
+
+For this analysis, we will prioritize the metrics that are crucial in generating the expected ROI for our marketing client. Specifically, we will focus on YouTube channels with the most:
+
+- Subscribers
+- Total views
+- Videos uploaded
+
+
+# Validation
+
+### 1. Youtubers with the most subscribers
+#### Calculation breakdown
+Campaign idea = product placement
+
+a. WorkpointOfficial
+ - Average views per video = 450,000
+ - Product cost = ฿500
+ - Potential units sold per video = 450,000 x 0.2% conversion rate = 900 units sold
+ - Potential revenue per video = 900 x ฿500 = ฿450,000
+ - Campaign cost (one-time fee) = ฿50,000
+ - Net profit = ฿450,000 - ฿50,000 = ฿400,000
+
+b. ช่อง one31
+ - Average views per video = 200,000
+ - Product cost = ฿500
+ - Potential units sold per video = 200,000 x 0.2% conversion rate = 400 units sold
+ - Potential revenue per video = 400 x ฿500 = ฿200,000
+ - Campaign cost (one-time fee) = ฿50,000
+ - Net profit = ฿200,000 - ฿50,000 = ฿150,000
+
+c. Ch3Thailand
+ - Average views per video = 290,000
+ - Product cost = ฿500
+ - Potential units sold per video = 290,000 x 0.2% conversion rate = 580 units sold
+ - Potential revenue per video = 580 x ฿500 = ฿290,000
+ - Campaign cost (one-time fee) = ฿50,000
+ - Net profit = ฿290,000 - ฿50,000 = ฿240,000
+
+Best option from category: WorkpointOfficial
+
+#### SQL Query
+
+```
+/* 
+
+# 1. Define variables 
+# 2. Create a CTE that rounds the average views per video 
+# 3. Select the column you need and create calculated columns from existing ones 
+# 4. Filter results by Youtube channels
+# 5. Sort results by net profits (from highest to lowest)
+
+*/
+
+
+-- 1. 
+DECLARE @conversionRate FLOAT = 0.002;		-- The conversion rate @ 0.2%  -- Mega/VIP >1 million followers, CVR = 0.2%. Cr.Aggero
+DECLARE @productCost FLOAT = 500;		-- The product cost @ ฿500
+DECLARE @campaignCost FLOAT = 50000.0;		-- The campaign cost @ ฿50,000	
+
+
+-- 2.  
+WITH ChannelData AS (
+    SELECT 
+        channel_name,
+        total_views,
+        total_videos,
+        ROUND((CAST(total_views AS FLOAT) / total_videos), -4) AS rounded_avg_views_per_video
+    FROM 
+        youtube_db.dbo.view_th_youtubers_2024
+)
+
+-- 3. 
+SELECT 
+    channel_name,
+    rounded_avg_views_per_video,
+    (rounded_avg_views_per_video * @conversionRate) AS potential_units_sold_per_video,
+    (rounded_avg_views_per_video * @conversionRate * @productCost) AS potential_revenue_per_video,
+    ((rounded_avg_views_per_video * @conversionRate * @productCost) - @campaignCost) AS net_profit
+FROM 
+    ChannelData
+
+
+-- 4. 
+WHERE 
+    channel_name in ('WorkpointOfficial', 'ช่อง one31', 'Ch3Thailand')    
+
+
+-- 5.  
+ORDER BY
+	net_profit DESC
+
+```
+
+Output
+
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Youtubers%20with%20the%20most%20subscribersSQL.JPG)
 
 
 
+### 2. Youtubers with the most videos uploaded
 
 
 
+### 3. Youtubers with the most views
+
+## Discovery
+
+## Recommendations
+
+### Potential ROI
+
+### Action plan
 
 
 
