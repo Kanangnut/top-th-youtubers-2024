@@ -123,6 +123,15 @@ These charts will help us show:
 
 ![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/dashboard_mockup_figma.JPG)
 
+## Tools
+
+| Tool | Purpose |
+| ------------- | ------------- |
+| Excel | Exploring the data |
+| SQL Server  | Cleaning, testing, and analyzing the data |
+| Power BI and Tableau | Visualizing the data via interactive dashboards |
+| Figma | Designing the wireframe/mockup of the dashboard |
+| GitHub | Hosting the project documentation and version control |
 
 
 
