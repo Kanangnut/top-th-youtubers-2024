@@ -582,6 +582,10 @@ Output
 
 ### 2. Youtubers with the most videos uploaded
 
+Calculation breakdown
+
+Campaign idea = sponsored video series
+
 a. Thairath Online
 Average views per video = 60,000
 Product cost =  ฿500
@@ -670,6 +674,93 @@ Output
 
 ### 3. Youtubers with the most views
 
+Calculation breakdown
+
+Campaign idea = Influencer marketing
+
+a. WorkpointOfficial
+Average views per video = 450,000
+Product cost = ฿500
+Potential units sold per video = 450,000 x 0.2% conversion rate = 900 units sold
+Potential revenue per video = 900 x ฿500 = ฿450,000
+Campaign cost (3-month contract) = $130,000
+Net profit = ฿450,000 - $130,000 = ฿320,000
+
+b. ช่อง one31
+Average views per video = 200,000
+Product cost = ฿500
+Potential units sold per video = 200,000 x 0.2% conversion rate = 400 units sold
+Potential revenue per video = 400 x ฿500 = ฿200,000
+Campaign cost (3-month contract) = $130,000
+Net profit = ฿200,000 - $130,000 = ฿70,000
+
+c. GMM GRAMMY OFFICIAL
+Average views per video = 1,580,000
+Product cost = ฿500
+Potential units sold per video = 1,580,000 x 0.2% conversion rate = 3,160 units sold
+Potential revenue per video = 3,160 x ฿500 = ฿1,580,000
+Campaign cost (3-month contract) = $130,000
+Net profit = ฿1,580,000 - $130,000 = ฿1,450,000
+
+Best option from category: GMM GRAMMY OFFICIAL
+
+
+#### SQL Query
+```
+/*
+
+# 1. Define variables
+# 2. Create a CTE that rounds the average views per video
+# 3. Select the columns you need and create calculated columns from existing ones
+# 4. Filter results by YouTube channels
+# 5. Sort results by net profits (from highest to lowest)
+
+*/
+
+
+--1.
+
+DECLARE @conversionRate FLOAT = 0.002;			-- The conversion rat @0.2%
+DECLARE @productCost MONEY = 500.0;				-- The product cost @ 500฿
+DECLARE @campaignCost MONEY = 130000.0;			-- The campaign cost @ 130,000฿
+
+
+--2.
+
+WITH ChannelData AS (
+    SELECT
+        channel_name,
+        total_views,
+        total_videos,
+        ROUND(CAST(total_views AS FLOAT) / total_videos, -4) AS avg_views_per_video
+    FROM
+        youtube_db.dbo.view_th_youtubers_2024
+)
+
+
+SELECT
+    channel_name,
+    avg_views_per_video,
+    (avg_views_per_video * @conversionRate) AS potential_units_sold_per_video,
+    (avg_views_per_video * @conversionRate * @productCost) AS potential_revenue_per_video,
+    (avg_views_per_video * @conversionRate * @productCost) - @campaignCost AS net_profit
+FROM
+    ChannelData
+
+--4.
+WHERE
+	channel_name IN ('WorkpointOfficial', 'ช่อง one31', 'GMM GRAMMY OFFICIAL')
+
+
+--5.
+ORDER BY
+	net_profit DESC
+
+```
+
+Output
+
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Youtubers%20with%20the%20most%20viewsSQL.JPG)
 
 
 ## Discovery
