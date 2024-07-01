@@ -9,7 +9,7 @@ Excel to Power BI and Tubleau 📊💭
 -
 
 
-## Objective
+# Objective
 <br>
 • Key Pain Point:<br>
 The Head of Marketing needs to find the most important TH YouTubers in 2024 to plan and run marketing campaigns for the rest of the year. Without this information, the company might choose less effective influencers. This could make the campaigns less successful and waste marketing resources.<br><br>
@@ -60,7 +60,7 @@ By using this dashboard, I want to:
 - This tool will help our marketing team create better, more efficient, and successful YouTube-based marketing strategies in the TH market.
 
 
-## Data Source
+# Data Source
 
 
 
