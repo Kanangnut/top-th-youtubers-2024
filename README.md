@@ -787,7 +787,27 @@ Entertainment channels are useful for broader reach, as the channels posting con
 
 ### Potential ROI
 
+What ROI do we expect if we take this course of action?
+
+1. Setting up a collaboration deal with WorkpointOfficial would make the client a net profit of ฿400,000 per video
+2. An influencer marketing contract with GMM GRAMMY OFFICIAL can see the client generate a net profit of ฿1,450,000
+3. If we go with a influencer marketing campaign with ช่อง one31, this could generate the client approximately ฿70,000 per video. If we advance with an product placement campaign deal instead, this would make the client a one-off net profit of ฿150,000.
+4. WorkpointOfficial could profit the client ฿400,000 per video too (which is worth considering)
+
 ### Action plan
+
+- What course of action should we take and why?
+
+Based on our analysis, we beieve the best channel to advance a long-term partnership deal with to promote the client's products is the WorkpointOfficial channel.
+
+We'll have conversations with the marketing client to forecast what they also expect from this collaboration. Once we observe we're hitting the expected milestones, we'll advance with potential partnerships with ช่อง one31 and GMM GRAMMY OFFICIAL channels in the future.
+
+- What steps do we take to implement the recommended decisions effectively?
+
+1. Reach out to the teams behind each of these channels, starting with WorkpointOfficial
+2. Negotiate contracts within the budgets allocated to each marketing campaign
+3. Kick off the campaigns and track each of their performances against the KPIs
+4. Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel's audiences
 
 
 
