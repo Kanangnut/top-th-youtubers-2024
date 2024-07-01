@@ -6,7 +6,7 @@ Excel to Power BI and Tubleau 📊💭
 # Table of Contents
 - [Objective](#objective)
 - [Data Source](#data-source)
--
+- [Stages](#stages)
 
 
 # Objective
@@ -74,6 +74,15 @@ And we need data on the top TH YouTubers in 2024 that includes,
 - total videos uploaded
 
 So we write the python script to get the data from our data source.
+
+# Stages
+
+- Gathering requirements
+- Project planing
+- Design
+- Coding and Implementation
+- Testing
+- Analysis
 
 
 
