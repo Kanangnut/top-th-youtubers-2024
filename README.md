@@ -580,12 +580,97 @@ Output
 ![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Youtubers%20with%20the%20most%20subscribersSQL.JPG)
 
 
-
 ### 2. Youtubers with the most videos uploaded
 
+a. Thairath Online
+Average views per video = 60,000
+Product cost =  ฿500
+Potential units sold per video = 60,000 x 0.2% conversion rate = 120 units sold
+Potential revenue per video = 120 x ฿500 = ฿60,000
+Campaign cost (11-videos @ $5,000 each) = ฿55,000
+Net profit = ฿60,000 - ฿55,000 = ฿5,000
+
+b. ช่อง one31
+Average views per video = 200,000
+Product cost =  ฿500
+Potential units sold per video = 200,000 x 0.2% conversion rate = 400 units sold
+Potential revenue per video = 400 x ฿500 = ฿200,000
+Campaign cost (11-videos @ $5,000 each) = ฿55,000
+Net profit = ฿200,000 - ฿55,000 = ฿145,000
+
+c. เรื่องเล่าเช้านี้
+Average views per video = 60,000
+Product cost =  ฿500
+Potential units sold per video = 60,000 x 0.2% conversion rate = 120 units sold
+Potential revenue per video = 120 x ฿500 = ฿60,000
+Campaign cost (11-videos @ $5,000 each) = ฿55,000
+Net profit = ฿60,000 - ฿55,000 = ฿5,000
+
+Best option from category: ช่อง one31
+
+
+#### SQL Query
+```
+/*
+
+# 1. Define variables
+# 2. Create a CTE that rounds the average views per video
+# 3. Select the columns you need and create calculated columns from existing ones
+# 4. Filter results by YouTube channels
+# 5. Sort results by net profits (from highest to lowest)
+
+*/
+
+
+--1.
+
+DECLARE @conversionRate FLOAT = 0.002;			-- The conversion rat @0.2%
+DECLARE @productCost MONEY = 500.0;				-- The product cost @ ฿500
+DECLARE @campaignCostPerVideo FLOAT = 5000.0;   -- The campaign cost per video @ ฿5,000
+DECLARE @numberOfVideos INT = 11;               -- The number of videos (11)
+
+
+--2.
+
+WITH ChannelData AS (
+    SELECT
+        channel_name,
+        total_views,
+        total_videos,
+        ROUND((CAST(total_views AS FLOAT) / total_videos), -4) AS rounded_avg_views_per_video
+    FROM
+        youtube_db.dbo.view_th_youtubers_2024
+)
+
+
+SELECT
+    channel_name,
+    rounded_avg_views_per_video,
+    (rounded_avg_views_per_video * @conversionRate) AS potential_units_sold_per_video,
+    (rounded_avg_views_per_video * @conversionRate * @productCost) AS potential_revenue_per_video,
+    ((rounded_avg_views_per_video * @conversionRate * @productCost) - (@campaignCostPerVideo * @numberOfVideos)) AS net_profit
+FROM
+    ChannelData
+
+--4.
+WHERE
+	channel_name IN ('Thairath Online', 'ช่อง one31', 'เรื่องเล่าเช้านี้')
+
+
+--5.
+ORDER BY
+	net_profit DESC
+
+```
+
+Output
+
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Youtubers%20with%20the%20most%20videos%20uploadedSQL.JPG)
 
 
 ### 3. Youtubers with the most views
+
+
 
 ## Discovery
 
