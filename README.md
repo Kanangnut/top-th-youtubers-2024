@@ -159,7 +159,52 @@ Initial Observations:
 - Some cells and header names are in a different language. We need to confirm if these columns are necessary and address them accordingly.
 - There is more data than we need, so some columns will need to be removed.
 
+## Data cleaning
 
+What do we expect the clean data to look like?
 
+We aim to improve our dataset so it is well-organized and ready for analysis. The cleaned data should meet the following criteria:
 
+- Only relevant columns should be retained.
+- All data types should be appropriate for the contents of each column.
+- No column should contain null values, indicating complete data for all records.
+
+Below is a table outline that constraints on our cleaned dataset:
+
+| Property | Description |
+| ------------- | ------------- |
+| Number of Rows | 100 |
+| Number of Columns | 4 |
+
+Here is a tabular representation of the expected schema for the clean data:
+
+| Column Name | Data Type | Null |
+| ------------- | ------------- | ------------- |
+| channel_name | VARCHAR | NO |
+| total_subscribers | INTEGER | NO |
+| total_views | INTEGER | NO |
+| total_videos | INTEGER | NO |
+
+What steps are needed to clean and shape the data into the desired format?
+  1. Inspecting the raw data to understand its structure, format, and quality. Identify missing values, outliers, and inconsistencies
+  2. Remove unnecessary columns by only selecting the ones you need
+  3. Extract Youtube channel names from the first column
+  4. Rename columns using aliases
+
+## Data transform
+
+/*
+# 1. Select the required columns
+# 2. Extract the channel name from the 'NAME' column
+*/
+
+-- 1. and -- 2.
+SELECT
+	CAST(SUBSTRING(NAME, 1, CHARINDEX('@', NAME) -1) AS VARCHAR(100)) as channel_name,
+	total_subscribers,
+	total_views,
+	total_videos
+
+FROM
+	top_th_youtubers_2024
 
