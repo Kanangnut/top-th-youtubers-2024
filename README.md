@@ -22,8 +22,9 @@ Excel to Power BI and Tubleau 📊💭
 - Visualization
   - Dashboard by Power BI and Tableau
   - DAX Measures
--
--
+- Analysis
+- Finding
+- 
   
 # Objective
 <br>
@@ -418,6 +419,41 @@ RETURN viewsPerSubscriber
 
 ```
 
+
+# Analysis
+
+## Findings
+
+For this analysis, we will focus on the questions below to gather information for our marketing client:
+
+  1. Who are the top 10 YouTubers with the most subscribers?
+
+| Channel Name | Total Subscriber (M) |
+| ------------- | ------------- |
+| WorkpointOfficial | 41.1 |
+| ช่อง one31 | 40.5 |
+| Ch3Thailand | 35.0 |
+| GMM GRAMMY OFFICIAL | 24.1 |
+| GRAMMY GOLD OFFICIAL | 19.8 |
+| THAIRATH TV Originals | 18.0 |
+| GMMTV OFFICIAL | 17.8 |
+| Ch7HD | 17.6 |
+| Genierock | 16.0 |
+| GMM25Thailand | 15.3 |
+
+
+
+
+
+
+
+
+
+  2. Which 3rd channels have uploaded the most videos?
+  3. Which 3rd channels have the most views?
+  4. Which 3rd channels have the highest average views per video?
+  5. Which 3rd channels have the highest views per subscriber ratio?
+  6. Which 3rd channels have the highest subscriber engagement rate per video uploaded?
 
 
 
