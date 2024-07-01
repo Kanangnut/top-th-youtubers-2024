@@ -202,7 +202,9 @@ What steps are needed to clean and shape the data into the desired format?
   3. Extract Youtube channel names from the first column
   4. Rename columns using aliases
 
+
 ## Data transformation
+
 ```
 /*
 # 1. Select the required columns
@@ -220,7 +222,9 @@ FROM
 	top_th_youtubers_2024
 ```
 
+
 ## Ceate view on SQL Server
+
 ```
 /*
 # 1. Create a view to store the transformed data
@@ -242,6 +246,48 @@ SELECT
 FROM
     top_th_youtubers_2024
 ```
+
+
+# Testing
+
+- What data quality and validation checks are you going to create?
+
+Here are the data quality tests conducted:
+
+## Row count check
+
+```
+/*
+# Count the total number of records (or rows) are in the SQL view
+*/
+
+SELECT COUNT(*) AS no_of_rows
+FROM view_th_youtubers_2024;
+
+```
+
+Output
+
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Testing%20Row%20count%20check.JPG)
+
+## Column count check
+
+```
+/*
+# Count the total number of columns (or fields) are in the SQL view
+*/
+
+
+SELECT COUNT(*) AS column_count
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'view_th_youtubers_2024'
+
+```
+
+Output
+
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Testing%20Column%20count%20check.JPG)
+
 
 
 
