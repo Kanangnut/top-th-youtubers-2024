@@ -591,7 +591,7 @@ Average views per video = 60,000
 Product cost =  ฿500
 Potential units sold per video = 60,000 x 0.2% conversion rate = 120 units sold
 Potential revenue per video = 120 x ฿500 = ฿60,000
-Campaign cost (11-videos @ $5,000 each) = ฿55,000
+Campaign cost (11-videos @ ฿5,000 each) = ฿55,000
 Net profit = ฿60,000 - ฿55,000 = ฿5,000
 
 b. ช่อง one31
@@ -599,7 +599,7 @@ Average views per video = 200,000
 Product cost =  ฿500
 Potential units sold per video = 200,000 x 0.2% conversion rate = 400 units sold
 Potential revenue per video = 400 x ฿500 = ฿200,000
-Campaign cost (11-videos @ $5,000 each) = ฿55,000
+Campaign cost (11-videos @ ฿5,000 each) = ฿55,000
 Net profit = ฿200,000 - ฿55,000 = ฿145,000
 
 c. เรื่องเล่าเช้านี้
@@ -607,7 +607,7 @@ Average views per video = 60,000
 Product cost =  ฿500
 Potential units sold per video = 60,000 x 0.2% conversion rate = 120 units sold
 Potential revenue per video = 120 x ฿500 = ฿60,000
-Campaign cost (11-videos @ $5,000 each) = ฿55,000
+Campaign cost (11-videos @ ฿5,000 each) = ฿55,000
 Net profit = ฿60,000 - ฿55,000 = ฿5,000
 
 Best option from category: ช่อง one31
@@ -683,24 +683,24 @@ Average views per video = 450,000
 Product cost = ฿500
 Potential units sold per video = 450,000 x 0.2% conversion rate = 900 units sold
 Potential revenue per video = 900 x ฿500 = ฿450,000
-Campaign cost (3-month contract) = $130,000
-Net profit = ฿450,000 - $130,000 = ฿320,000
+Campaign cost (3-month contract) = ฿130,000
+Net profit = ฿450,000 - ฿130,000 = ฿320,000
 
 b. ช่อง one31
 Average views per video = 200,000
 Product cost = ฿500
 Potential units sold per video = 200,000 x 0.2% conversion rate = 400 units sold
 Potential revenue per video = 400 x ฿500 = ฿200,000
-Campaign cost (3-month contract) = $130,000
-Net profit = ฿200,000 - $130,000 = ฿70,000
+Campaign cost (3-month contract) = ฿130,000
+Net profit = ฿200,000 - ฿130,000 = ฿70,000
 
 c. GMM GRAMMY OFFICIAL
 Average views per video = 1,580,000
 Product cost = ฿500
 Potential units sold per video = 1,580,000 x 0.2% conversion rate = 3,160 units sold
 Potential revenue per video = 3,160 x ฿500 = ฿1,580,000
-Campaign cost (3-month contract) = $130,000
-Net profit = ฿1,580,000 - $130,000 = ฿1,450,000
+Campaign cost (3-month contract) = ฿130,000
+Net profit = ฿1,580,000 - ฿130,000 = ฿1,450,000
 
 Best option from category: GMM GRAMMY OFFICIAL
 
