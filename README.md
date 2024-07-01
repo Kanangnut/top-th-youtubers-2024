@@ -771,8 +771,8 @@ Output
 ## Discovery
 
 - What did we learn?
-- 
-We discovered that
+  
+- We discovered that:
 
 WorkpointOfficial, ช่อง one31 and Ch3Thailand are the channnels with the most subscribers in the TH.
 Thairath Online, ช่อง one31 and เรื่องเล่าเช้านี้ are the channels with the most videos uploaded.
