@@ -17,14 +17,18 @@ Excel to Power BI and Tubleau 📊💭
   - [Data transformation](#data-transformation)
   - [Ceate SQL view](#ceate-sql-view)
 - [Data Quality Tests](#data-quality-tests)
-  - Data type check
-  - Duplicate count check
-- Visualization
-  - Dashboard by Power BI and Tableau
-  - DAX Measures
-- Analysis
-- Finding
-- 
+  - [Data type check](#data-type-check)
+  - [Duplicate count check](#duplicate-count-check)
+- [Visualization](#Visualization)
+  - [Dashboard by Power BI and Tableau](#dashboard-by-Power-BI-and-Tableau)
+  - [DAX Measures](#DAX-Measures)
+- [Analysis](#analysis)
+  - [Findings](#findings)
+  - [Validation](#validation)
+  - [Discovery](#discovery)
+- [Recommendations](#recommendationsy)
+  - [Potential ROI](#potential-ROI)
+  - [Action plan](#action-plan)
   
 # Objective
 <br>
