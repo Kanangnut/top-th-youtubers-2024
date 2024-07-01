@@ -121,6 +121,8 @@ These charts will help us show:
 - How many views they get.
 - How many videos they make.
 
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/dashboard_mockup_figma.JPG)
+
 
 
 
