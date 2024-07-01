@@ -15,8 +15,10 @@ Excel to Power BI and Tubleau 📊💭
   - [Data Exploration](#data-exploration)
   - [Data Cleaning](#data-cleaning)
   - [Data transformation](#data-transformation)
-  - [Ceate view on SQL Server](#ceate-view-on-sql-server)
--
+  - [Ceate SQL view](#ceate-sql-view)
+- [Data Quality Tests](#data-quality-tests)
+  - Data type check
+  - Duplicate count check
 -
 -
 -
@@ -223,7 +225,7 @@ FROM
 ```
 
 
-## Ceate view on SQL Server
+## Ceate SQL view
 
 ```
 /*
@@ -248,7 +250,7 @@ FROM
 ```
 
 
-# Testing
+# Data Quality Tests
 
 - What data quality and validation checks are you going to create?
 
@@ -288,6 +290,54 @@ Output
 
 ![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Testing%20Column%20count%20check.JPG)
 
+# Data Quality Tests
+
+## Data type check
+
+```
+/*
+# Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+*/
+
+-- 1.
+SELECT
+    COLUMN_NAME,
+    DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'view_th_youtubers_2024';
+
+```
+
+Output
+
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Data%20type%20check.JPG)
+
+
+## Duplicate count check
+
+```
+/*
+# 1. Check for duplicate rows in the view
+# 2. Group by the channel name
+# 3. Filter for groups with more than one row
+*/
+
+-- 1.
+SELECT channel_name,
+    COUNT(*) AS duplicate_count
+FROM view_th_youtubers_2024
+
+-- 2.
+GROUP BY channel_name
+
+-- 3.
+HAVING COUNT(*) > 1;
+
+```
+
+Output
+
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/duplicate%20count%20check.JPG)
 
 
 
