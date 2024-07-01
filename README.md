@@ -441,19 +441,46 @@ For this analysis, we will focus on the questions below to gather information fo
 | Genierock | 16.0 |
 | GMM25Thailand | 15.3 |
 
-
-
-
-
-
-
-
-
   2. Which 3rd channels have uploaded the most videos?
+
+| Channel Name | Total Videos Uploaded |
+| ------------- | ------------- |
+| Thairath Online | 282,912 |
+| ช่อง one31 | 145,747 |
+| เรื่องเล่าเช้านี้ | 131,490 |
+
   3. Which 3rd channels have the most views?
+
+| Channel Name | Total Views (B) |
+| ------------- | ------------- |
+| WorkpointOfficial | 38.6 |
+| ช่อง one31 | 28.5 |
+| Ch3Thailand | 27.2 |
+
   4. Which 3rd channels have the highest average views per video?
+
+| Channel Name | Averge Views per Video (M) |
+| ------------- | ------------- |
+| Mr.Tfue | 89.0 |
+| Illslick thelegandary | 40.0 |
+| YOUNGOHM | 27.0 |
+
   5. Which 3rd channels have the highest views per subscriber ratio?
+
+| Channel Name | Views per Subscriber |
+| ------------- | ------------- |
+| Beam Copphone | 1632.0 |
+| VOICE TV | 1202.0 |
+| YimYam TV | 1167.0 |
+
   6. Which 3rd channels have the highest subscriber engagement rate per video uploaded?
+
+| Channel Name | Subscriber Engagement Rate (M) |
+| ------------- | ------------- |
+| Mr.Tfue | 0.41 |
+| Wannabe Mee | 0.07 |
+| Illslick thelegandary | 0.06 |
+
 
 
 
