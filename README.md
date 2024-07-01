@@ -132,7 +132,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 
 These charts will help us show:
 
-- Who the top UK YouTubers are.
+- Who the top TH YouTubers are.
 - How many subscribers they have.
 - How many views they get.
 - How many videos they make.
