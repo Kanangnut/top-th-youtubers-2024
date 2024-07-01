@@ -192,7 +192,7 @@ What steps are needed to clean and shape the data into the desired format?
   4. Rename columns using aliases
 
 ## Data transform
-
+```
 /*
 # 1. Select the required columns
 # 2. Extract the channel name from the 'NAME' column
@@ -207,4 +207,5 @@ SELECT
 
 FROM
 	top_th_youtubers_2024
+```
 
