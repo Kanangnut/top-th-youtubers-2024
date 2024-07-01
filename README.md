@@ -8,8 +8,19 @@ Excel to Power BI and Tubleau 📊💭
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
-
-
+  - [Dashboard mockup](#dashboard-mockup)
+  - [Tools](#tools)
+- [Development](#development)
+  - [Pseudocode](#pseudocodet)
+  - [Data Exploration](#data-exploration)
+  - [Data Cleaning](#data-cleaning)
+  - [Data transformation](#data-transformation)
+  - [Ceate view on SQL Server](#ceate-view-on-sql-server)
+-
+-
+-
+-
+  
 # Objective
 <br>
 • Key Pain Point:<br>
@@ -191,7 +202,7 @@ What steps are needed to clean and shape the data into the desired format?
   3. Extract Youtube channel names from the first column
   4. Rename columns using aliases
 
-## Data transform
+## Data transformation
 ```
 /*
 # 1. Select the required columns
@@ -231,6 +242,7 @@ SELECT
 FROM
     top_th_youtubers_2024
 ```
+
 
 
 
