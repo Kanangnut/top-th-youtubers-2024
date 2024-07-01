@@ -7,6 +7,7 @@ Excel to Power BI and Tubleau 📊💭
 - [Objective](#objective)
 - [Data Source](#data-source)
 - [Stages](#stages)
+- [Design](#design)
 
 
 # Objective
@@ -75,6 +76,7 @@ And we need data on the top TH YouTubers in 2024 that includes,
 
 So we write the python script to get the data from our data source.
 
+
 # Stages
 
 - Gathering requirements
@@ -83,6 +85,23 @@ So we write the python script to get the data from our data source.
 - Coding and Implementation
 - Testing
 - Analysis
+
+
+# Design
+
+## Dashboard Components Required
+- What should the dashboard design based on the requirements?
+
+To determine the components that should be included in the dashboard, we need to identify the key questions that the dashboard must answer:
+
+  1. Who are the top 10 YouTubers with the most subscribers?
+  2. Which 3rd channels have uploaded the most videos?
+  3. Which 3rd channels have the most views?
+  4. Which 3rd channels have the highest average views per video?
+  5. Which 3rd channels have the highest views per subscriber ratio?
+  6. Which 3rd channels have the highest subscriber engagement rate per video uploaded?
+
+These questions will guide the initial design of the dashboard. As our analysis progresses, additional questions and components may be identified and included.
 
 
 
