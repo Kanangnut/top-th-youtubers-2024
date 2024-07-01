@@ -133,8 +133,31 @@ These charts will help us show:
 | Figma | Designing the wireframe/mockup of the dashboard |
 | GitHub | Hosting the project documentation and version control |
 
+# Development
 
+## Pseudocode
 
+What's the general approach in creating this solution from start to finish?
+
+- Get the data
+- Explore the data
+- Load the data into SQL Server
+- Clean the data with SQL
+- Test the data with SQL
+- Visualize the data in Power BI
+- Generate the findings based on the insights
+- Write the documentation + commentary
+- Publish the data to GitHub
+
+## Data exploration
+
+This is the stage where we examine the data for errors, inconsistencies, bugs, and unusual or corrupted characters.
+Initial Observations:
+
+- There are at least four columns that contain the data needed for this analysis. This suggests we have all the necessary information from the file without needing to contact the client for additional data.
+- The first column contains channel IDs, separated by the @ symbol. We need to extract the channel names from this column.
+- Some cells and header names are in a different language. We need to confirm if these columns are necessary and address them accordingly.
+- There is more data than we need, so some columns will need to be removed.
 
 
 
