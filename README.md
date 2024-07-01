@@ -61,6 +61,12 @@ By using this dashboard, I want to:
 
 
 # Data Source
+What data is needed to achieve our objective?
+
+'Top 100 Social Media Influencers 2024 Countrywise' Where is the data coming from? The data is sourced from Kaggle (an Excel extract), [Resource]((https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
+
+
+
 
 
 
