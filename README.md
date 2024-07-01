@@ -765,7 +765,25 @@ Output
 
 ## Discovery
 
+- What did we learn?
+- 
+We discovered that
+
+WorkpointOfficial, ช่อง one31 and Ch3Thailand are the channnels with the most subscribers in the TH.
+Thairath Online, ช่อง one31 and เรื่องเล่าเช้านี้ are the channels with the most videos uploaded.
+WorkpointOfficial, ช่อง one31 and GMM GRAMMY OFFICIAL are the channels with the most views
+Entertainment channels are useful for broader reach, as the channels posting consistently on their platforms and generating the most engagement are focus on entertainment and music
+
+
 ## Recommendations
+
+- What do you recommend based on the insights gathered?
+
+1. WorkpointOfficial is the best YouTube channel to collaborate with if we want to maximize visbility because this channel has the most YouTube subscribers in the TH.
+2. Although Thairath Online, ช่อง one31 and เรื่องเล่าเช้านี้ are regular publishers on YouTube, it may be worth considering whether collaborating with them with the current budget caps are worth the effort, as the potential return on investments is significantly lower compared to the other channels.
+3. GMM GRAMMY OFFICIAL is the best YouTuber to collaborate with if we're interested in maximizing reach, but collaborating with WorkpointOfficial and ช่อง one31 may be better long-term options considering the fact that they both have large subscriber bases and are averaging significantly high number of views.
+4. The top 3 channels to form collaborations with are WorkpointOfficial, ช่อง one31 and GMM GRAMMY OFFICIAL based on this analysis, because they attract the most engagement on their channels consistently.
+
 
 ### Potential ROI
 
