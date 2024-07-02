@@ -583,7 +583,7 @@ Output
 
 ### 2. Youtubers with the most videos uploaded
 
-Calculation breakdown
+#### Calculation breakdown
 
 Campaign idea = sponsored video series
 
@@ -675,7 +675,7 @@ Output
 
 ### 3. Youtubers with the most views
 
-Calculation breakdown
+#### Calculation breakdown
 
 Campaign idea = Influencer marketing
 
@@ -770,10 +770,10 @@ Output
   
 - We discovered that:
 
-- WorkpointOfficial, ช่อง one31 and Ch3Thailand are the channnels with the most subscribers in the TH.
-- Thairath Online, ช่อง one31 and เรื่องเล่าเช้านี้ are the channels with the most videos uploaded.
-- WorkpointOfficial, ช่อง one31 and GMM GRAMMY OFFICIAL are the channels with the most views
-- Entertainment channels are useful for broader reach, as the channels posting consistently on their platforms and generating the most engagement are focus on entertainment and music
+1. WorkpointOfficial, ช่อง one31 and Ch3Thailand are the channnels with the most subscribers in the TH.
+2. Thairath Online, ช่อง one31 and เรื่องเล่าเช้านี้ are the channels with the most videos uploaded.
+3. WorkpointOfficial, ช่อง one31 and GMM GRAMMY OFFICIAL are the channels with the most views.
+4. Entertainment channels are useful for broader reach, as the channels posting consistently on their platforms and generating the most engagement are focus on entertainment and music.
 
 
 ## Recommendations
@@ -790,10 +790,10 @@ Output
 
 What ROI do we expect if we take this course of action?
 
-1. Setting up a collaboration deal with WorkpointOfficial would make the client a net profit of ฿400,000 per video
-2. An influencer marketing contract with GMM GRAMMY OFFICIAL can see the client generate a net profit of ฿1,450,000
+1. Setting up a collaboration deal with WorkpointOfficial would make the client a net profit of ฿400,000 per video.
+2. An influencer marketing contract with GMM GRAMMY OFFICIAL can see the client generate a net profit of ฿1,450,000.
 3. If we go with a influencer marketing campaign with ช่อง one31, this could generate the client approximately ฿70,000 per video. If we advance with an product placement campaign deal instead, this would make the client a one-off net profit of ฿150,000.
-4. WorkpointOfficial could profit the client ฿400,000 per video too (which is worth considering)
+4. WorkpointOfficial could profit the client ฿400,000 per video too (which is worth considering).
 
 ### Action plan
 
@@ -805,10 +805,10 @@ We'll have conversations with the marketing client to forecast what they also ex
 
 - What steps do we take to implement the recommended decisions effectively?
 
-1. Reach out to the teams behind each of these channels, starting with WorkpointOfficial
-2. Negotiate contracts within the budgets allocated to each marketing campaign
-3. Kick off the campaigns and track each of their performances against the KPIs
-4. Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel's audiences
+1. Reach out to the teams behind each of these channels, starting with WorkpointOfficial.
+2. Negotiate contracts within the budgets allocated to each marketing campaign.
+3. Kick off the campaigns and track each of their performances against the KPIs.
+4. Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel's audiences.
 
 
 
