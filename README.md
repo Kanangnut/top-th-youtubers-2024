@@ -32,11 +32,11 @@ Link: https://kanangnut.github.io/top-th-youtubers-2024/
   - [Action plan](#action-plan)
   
 # Objective
-<br>
-• Key Pain Point:<br>
+
+• Key Pain Point:<br><br>
 The Head of Marketing needs to find the most important TH YouTubers in 2024 to plan and run marketing campaigns for the rest of the year. Without this information, the company might choose less effective influencers. This could make the campaigns less successful and waste marketing resources.<br><br>
 
-• Ideal Solution:<br>
+• Ideal Solution:<br><br>
 Create a simple dashboard that shows the top TH YouTubers of 2024. The dashboard should include:<br>
 
 - Subscriber count: To see how popular the YouTuber is.
@@ -62,15 +62,11 @@ As the Head of Marketing, I need a dashboard that analyzes YouTube channel data 
 - Find top channels based on:
   - Subscriber count
   - Average views per video
-  - Engagement rates (likes, comments, shares)
+  - Engagement rates (For this project just use basic idea How engaged the subscribers are? the engaged the subscribers are you know to each videos on average?So the metrics like the ones we scorecards are not going to be enough to make decisions in the real world.)
   - Content consistency and frequency
-
 - Compare multiple channels side-by-side to see how they perform and who their audience is.
-
 - Track channel growth over time to find rising influencers and new trends.
-
 - Create detailed reports on selected channels, including their content types, audience details, and brand collaboration history.
-
 - Get alerts for channels that meet certain criteria or show significant growth.
 
 By using this dashboard, I want to:
@@ -431,7 +427,7 @@ RETURN viewsPerSubscriber
 
 For this analysis, we will focus on the questions below to gather information for our marketing client:
 
- ###  1. Who are the top 10 YouTubers with the most subscribers?
+###   1. Who are the top 10 YouTubers with the most subscribers?
 
 | Channel Name | Total Subscriber (M) |
 | ------------- | ------------- |
@@ -591,29 +587,29 @@ Calculation breakdown
 
 Campaign idea = sponsored video series
 
-a. Thairath Online
-Average views per video = 60,000
-Product cost =  ฿500
-Potential units sold per video = 60,000 x 0.2% conversion rate = 120 units sold
-Potential revenue per video = 120 x ฿500 = ฿60,000
-Campaign cost (11-videos @ ฿5,000 each) = ฿55,000
-Net profit = ฿60,000 - ฿55,000 = ฿5,000
+a. Thairath Online <br>
+Average views per video = 60,000 <br>
+Product cost =  ฿500 <br>
+Potential units sold per video = 60,000 x 0.2% conversion rate = 120 units sold <br>
+Potential revenue per video = 120 x ฿500 = ฿60,000 <br>
+Campaign cost (11-videos @ ฿5,000 each) = ฿55,000 <br>
+Net profit = ฿60,000 - ฿55,000 = ฿5,000 <br><br>
 
-b. ช่อง one31
-Average views per video = 200,000
-Product cost =  ฿500
-Potential units sold per video = 200,000 x 0.2% conversion rate = 400 units sold
-Potential revenue per video = 400 x ฿500 = ฿200,000
-Campaign cost (11-videos @ ฿5,000 each) = ฿55,000
-Net profit = ฿200,000 - ฿55,000 = ฿145,000
+b. ช่อง one31 <br>
+Average views per video = 200,000 <br>
+Product cost =  ฿500 <br>
+Potential units sold per video = 200,000 x 0.2% conversion rate = 400 units sold <br>
+Potential revenue per video = 400 x ฿500 = ฿200,000 <br>
+Campaign cost (11-videos @ ฿5,000 each) = ฿55,000 <br>
+Net profit = ฿200,000 - ฿55,000 = ฿145,000 <br><br>
 
-c. เรื่องเล่าเช้านี้
-Average views per video = 60,000
-Product cost =  ฿500
-Potential units sold per video = 60,000 x 0.2% conversion rate = 120 units sold
-Potential revenue per video = 120 x ฿500 = ฿60,000
-Campaign cost (11-videos @ ฿5,000 each) = ฿55,000
-Net profit = ฿60,000 - ฿55,000 = ฿5,000
+c. เรื่องเล่าเช้านี้ <br>
+Average views per video = 60,000 <br>
+Product cost =  ฿500 <br>
+Potential units sold per video = 60,000 x 0.2% conversion rate = 120 units sold <br>
+Potential revenue per video = 120 x ฿500 = ฿60,000 <br>
+Campaign cost (11-videos @ ฿5,000 each) = ฿55,000 <br>
+Net profit = ฿60,000 - ฿55,000 = ฿5,000 <br>
 
 Best option from category: ช่อง one31
 
@@ -683,29 +679,29 @@ Calculation breakdown
 
 Campaign idea = Influencer marketing
 
-a. WorkpointOfficial
-Average views per video = 450,000
-Product cost = ฿500
-Potential units sold per video = 450,000 x 0.2% conversion rate = 900 units sold
-Potential revenue per video = 900 x ฿500 = ฿450,000
-Campaign cost (3-month contract) = ฿130,000
-Net profit = ฿450,000 - ฿130,000 = ฿320,000
+a. WorkpointOfficial <br>
+Average views per video = 450,000 <br>
+Product cost = ฿500 <br>
+Potential units sold per video = 450,000 x 0.2% conversion rate = 900 units sold <br>
+Potential revenue per video = 900 x ฿500 = ฿450,000 <br>
+Campaign cost (3-month contract) = ฿130,000 <br>
+Net profit = ฿450,000 - ฿130,000 = ฿320,000 <br><br>
 
-b. ช่อง one31
-Average views per video = 200,000
-Product cost = ฿500
-Potential units sold per video = 200,000 x 0.2% conversion rate = 400 units sold
-Potential revenue per video = 400 x ฿500 = ฿200,000
-Campaign cost (3-month contract) = ฿130,000
-Net profit = ฿200,000 - ฿130,000 = ฿70,000
+b. ช่อง one31 <br>
+Average views per video = 200,000 <br>
+Product cost = ฿500 <br>
+Potential units sold per video = 200,000 x 0.2% conversion rate = 400 units sold <br>
+Potential revenue per video = 400 x ฿500 = ฿200,000 <br>
+Campaign cost (3-month contract) = ฿130,000 <br>
+Net profit = ฿200,000 - ฿130,000 = ฿70,000 <br><br>
 
-c. GMM GRAMMY OFFICIAL
-Average views per video = 1,580,000
-Product cost = ฿500
-Potential units sold per video = 1,580,000 x 0.2% conversion rate = 3,160 units sold
-Potential revenue per video = 3,160 x ฿500 = ฿1,580,000
-Campaign cost (3-month contract) = ฿130,000
-Net profit = ฿1,580,000 - ฿130,000 = ฿1,450,000
+c. GMM GRAMMY OFFICIAL  <br>
+Average views per video = 1,580,000 <br>
+Product cost = ฿500 <br>
+Potential units sold per video = 1,580,000 x 0.2% conversion rate = 3,160 units sold <br>
+Potential revenue per video = 3,160 x ฿500 = ฿1,580,000 <br>
+Campaign cost (3-month contract) = ฿130,000 <br>
+Net profit = ฿1,580,000 - ฿130,000 = ฿1,450,000 <br><br>
 
 Best option from category: GMM GRAMMY OFFICIAL
 
@@ -774,10 +770,10 @@ Output
   
 - We discovered that:
 
-WorkpointOfficial, ช่อง one31 and Ch3Thailand are the channnels with the most subscribers in the TH.
-Thairath Online, ช่อง one31 and เรื่องเล่าเช้านี้ are the channels with the most videos uploaded.
-WorkpointOfficial, ช่อง one31 and GMM GRAMMY OFFICIAL are the channels with the most views
-Entertainment channels are useful for broader reach, as the channels posting consistently on their platforms and generating the most engagement are focus on entertainment and music
+- WorkpointOfficial, ช่อง one31 and Ch3Thailand are the channnels with the most subscribers in the TH.
+- Thairath Online, ช่อง one31 and เรื่องเล่าเช้านี้ are the channels with the most videos uploaded.
+- WorkpointOfficial, ช่อง one31 and GMM GRAMMY OFFICIAL are the channels with the most views
+- Entertainment channels are useful for broader reach, as the channels posting consistently on their platforms and generating the most engagement are focus on entertainment and music
 
 
 ## Recommendations
