@@ -278,7 +278,7 @@ FROM view_th_youtubers_2024;
 
 Output
 
-![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Testing%20Row%20count%20check.JPG)
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Testing%20Row%20count%20check.JPG?raw=true)
 
 ## Column count check
 
@@ -296,7 +296,7 @@ WHERE TABLE_NAME = 'view_th_youtubers_2024'
 
 Output
 
-![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Testing%20Column%20count%20check.JPG)
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Testing%20Column%20count%20check.JPG?raw=true)
 
 # Data Quality Tests
 
@@ -318,7 +318,7 @@ WHERE TABLE_NAME = 'view_th_youtubers_2024';
 
 Output
 
-![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Data%20type%20check.JPG)
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Data%20type%20check.JPG?raw=true)
 
 
 ## Duplicate count check
@@ -345,7 +345,7 @@ HAVING COUNT(*) > 1;
 
 Output
 
-![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/duplicate%20count%20check.JPG)
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/duplicate%20count%20check.JPG?raw=true)
 
 
 # Visualization
@@ -354,7 +354,7 @@ Output
 
 This shows the Top TH Youtubers in 2024 so far.
 
-![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/dashboard_powerbi.JPG)
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/duplicate%20count%20check.JPG?raw=true)
 
 
 ## DAX Measures
@@ -582,7 +582,7 @@ ORDER BY
 
 Output
 
-![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Youtubers%20with%20the%20most%20subscribersSQL.JPG)
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Youtubers%20with%20the%20most%20subscribersSQL.JPG?raw=true)
 
 
 ### 2. Youtubers with the most videos uploaded
@@ -674,7 +674,7 @@ ORDER BY
 
 Output
 
-![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Youtubers%20with%20the%20most%20videos%20uploadedSQL.JPG)
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Youtubers%20with%20the%20most%20videos%20uploadedSQL.JPG?raw=true)
 
 
 ### 3. Youtubers with the most views
@@ -765,7 +765,7 @@ ORDER BY
 
 Output
 
-![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Youtubers%20with%20the%20most%20viewsSQL.JPG)
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Youtubers%20with%20the%20most%20viewsSQL.JPG?raw=true)
 
 
 ## Discovery
