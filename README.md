@@ -1,5 +1,5 @@
-# Data Portfolio: Top TH YouTubers 2024<br>
-Excel to Power BI and Tubleau 📊💭 <br>
+# Data Portfolio: Top Thailand YouTubers Analysis in 2024<br>
+In this project, we will look at the top YouTubers in Thailand in 2024. We will focus on important things like the number of subscribers, total views, how much people engage with the content, and the total videos uploaded. We will also calculate how cost-effective a channel is, determine the value for the money spent, and suggest the price to pay. This project can also be used for TikTok, Instagram, and other social media that connect to an API. 📊💭 <br>
 Link: https://kanangnut.github.io/top-th-youtubers-2024/
 
 ![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Architecture%20diagram.JPG?raw=true)
