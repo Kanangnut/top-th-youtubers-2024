@@ -340,8 +340,7 @@ HAVING COUNT(*) > 1;
 
 Output
 
-![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/duplicate%20count%20check.JPG?raw=true)
-
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Data%20type%20check.JPG?raw=true)
 
 # Visualization
 
