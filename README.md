@@ -349,7 +349,7 @@ Output
 
 This shows the Top TH Youtubers in 2024 so far.
 
-![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/duplicate%20count%20check.JPG?raw=true)
+![alt text](https://github.com/Kanangnut/top-th-youtubers-2024…main/assets/images/dashboard_powerbi.JPG?raw=true)
 
 
 ## DAX Measures
