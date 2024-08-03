@@ -809,7 +809,7 @@ We'll have conversations with the marketing client to forecast what they also ex
 4. Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel's audiences.
 
 # Credits
-Throughout the development of this project, I have sought inspiration from a pivotal video source:
+Throughout the development of this project, I have sought inspiration from a pivotal video source:<br>
 https://www.youtube.com/watch?v=mm_sN-Elplg&t=6956s
 
 
