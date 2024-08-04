@@ -1,5 +1,5 @@
 # Data Portfolio: Top Thailand YouTubers Analysis in 2024<br>
-This project analyzing Top Thailand YouTubers in 2024: focusing on subscribers, views, engagement, cost-effectiveness. This project also applicable to TikTok, Instagram and platforms with API integration.📊💭 <br>
+This project analyzing Top Thailand YouTubers in 2024: focusing on subscribers, views, engagement, cost-effectiveness. This project also applicable to TikTok, Instagram and platforms with API integration.📊💭 <br><br> Read full article [here](https://kanangnut.github.io/top-th-youtubers-2024/) <br> 
 
 ![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Architecture%20diagram.JPG?raw=true)
 
