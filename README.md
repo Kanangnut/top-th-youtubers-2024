@@ -25,7 +25,7 @@ This project analyzing Top Thailand YouTubers in 2024: focusing on subscribers, 
   - [Findings](#findings)
   - [Validation](#validation)
   - [Discovery](#discovery)
-- [Recommendations](#recommendationsy)
+- [Recommendations](#recommendations)
   - [Potential ROI](#potential-ROI)
   - [Action plan](#action-plan)
   
