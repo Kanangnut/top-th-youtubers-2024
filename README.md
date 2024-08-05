@@ -3,7 +3,7 @@ This project analyzing Top Thailand YouTubers in 2024: focusing on subscribers, 
 
 ![alt text](https://github.com/Kanangnut/top-th-youtubers-2024/blob/main/assets/images/Architecture%20diagram.JPG?raw=true)
 
-# Table of Contents
+# Index
 - [Objective](#objective)
 - [Data Source](#data-source)
 - [Stages](#stages)
