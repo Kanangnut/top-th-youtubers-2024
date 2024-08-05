@@ -810,25 +810,5 @@ We'll have conversations with the marketing client to forecast what they also ex
 
 # Credits
 Throughout the development of this project, I have sought inspiration from a pivotal video source:<br>
-https://www.youtube.com/watch?v=mm_sN-Elplg&t=6956s
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Excel to Power BI Portfolio Project | Full End-to-End Data Project](https://www.youtube.com/watch?v=mm_sN-Elplg&t=6956s).
 
